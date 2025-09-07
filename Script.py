@@ -1,13 +1,19 @@
 class script(object):
     START_TXT = """ Hᴇʟʟᴏ {}.
-𝖨𝗆 𝖺𝗇 𝖺𝗎𝗍𝗈 𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍 𝗐𝗁𝗂𝖼𝗁 𝖼𝖺𝗇 𝗉𝗋𝗈𝗏𝗂𝖽𝖾 𝗆𝗈𝗏𝗂𝖾𝗌 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌.
-+ 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 + 𝖺𝗇𝖽 𝗉𝗋𝗈𝗆𝗈𝗍𝖾 𝗆𝖾 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇 𝗍𝗈 𝗅𝖾𝗍 𝗆𝖾 𝗀𝖾𝗍 𝗂𝗇 𝖺𝖼𝗍𝗂𝗈𝗇."""
+𝖨 𝖠𝗆  Sᴀɴᴅᴇᴇᴘ 🎀, 𝖧𝖺𝗉𝗉𝗒 🖤 𝖳𝗈 𝖧𝖺𝗏𝖾 𝖸𝗈𝗎
+
+𝖨𝖺𝗆 𝖯𝗈𝗐𝖾𝗋𝖥𝗎𝗅𝗅 𝖠𝗎𝗍𝗈 𝖥𝗂𝗅𝗍𝖾𝗋 + 𝖬𝗈𝗏𝗂𝖾 𝖲𝖾𝖺𝗋𝖼𝗁 + 𝖬𝖺𝗇𝗎𝖺𝗅 𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍 ⚙️
+
+Here You Can Request Movie's, Just Sent Movie Name With Proper Google Spelling..!!
+
+Cᴏɴᴛᴀᴄᴛ Bᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ (Oʀ) Rᴇᴘᴏʀᴛ Bᴜɢꜱ..!! 👉 @MazhavilAdminBot
+🔸Chek for Latest Movies List /movies"""
     HELP_TXT = """
      Hey  {} 
 Currently using free server so please Dont kill Me...
 """
     ABOUT_TXT = """<b>
-◎ Cʀᴇᴀᴛᴏʀ: <a href=https://github.com/mntg4u> MN - TG</a>
+◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/George_sirr> George</a>
 ◎ Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3
 ◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
 ◎ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb</b>"""
@@ -118,14 +124,14 @@ Added By - {}
 FɪʟᴇSɪᴢᴇ : {file_size}
 
 ╔═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs   ═╗
- Jᴏɪɴ :- [MAIN CHANNEL](https://t.me/mn_movies2)
- Jᴏɪɴ :- [Movie Group 1](https://t.me/mn_movies3)
- Jᴏɪɴ :- [Movie Group 2](https://t.me/malayalam_movies_group2)
- Jᴏɪɴ :- [Movie Group 3](https://t.me/Netflix_Group3)
- Jᴏɪɴ :- [Movie Group 4](https://t.me/cinima_theerthadana_kendram)
- Jᴏɪɴ :- [Movie Group 5](https://t.me/malayalam_movies_nbot)
- Jᴏɪɴ :- [Movie Group 6](https://t.me/seriesgroups)
- Jᴏɪɴ :- [Movie Group 7](https://t.me/New_indian_cinemas)
+ Jᴏɪɴ :- [MAIN CHANNEL](https://t.me/MazhavilMoviesLinks)
+ Jᴏɪɴ :- [Movie Group 1](https://t.me/mazhavilMovies_Groups)
+ Jᴏɪɴ :- [Movie Group 2](https://t.me/mazhavil_Movies)
+ Jᴏɪɴ :- [Movie ᴄʜᴀɴɴᴇʟ ](https://t.me/OttUpdates2TG)
+ Jᴏɪɴ :- [Movie ᴄʜᴀɴɴᴇʟ ](https://t.me/MazhavilMoviesOTT)
+ Jᴏɪɴ :- [Movie ᴄʜᴀɴɴᴇʟ ](https://t.me/MazhavilMovies_Main)
+ Jᴏɪɴ :- [Movie ᴄʜᴀɴɴᴇʟ ](https://t.me/mazhavilMovies_Updates)
+ Jᴏɪɴ :- [Movie Group 7](https://t.me/mazhavil_support)
 ╚═  ᴊᴏɪɴ ᴡɪᴛʜ ᴜs    ═╝
 
 ⚠️ <b>This file will be deleted from here within 1 minute as it has copyright ... !!!</b>
