@@ -443,7 +443,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🖥Oᴛᴛ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ🖥', url=f'https://t.me/+BTh89gNULSdiOWFl')
             ],[
-            InlineKeyboardButton('⚓️Oᴛᴛ ᴍᴏᴠɪᴇ sᴛʀᴇᴀᴍɪɴɢ⚓️', url=f'https://t.me/+NE3VMORHtoU3OWU1')
+            InlineKeyboardButton('⚓️Oᴛᴛ ᴍᴏᴠɪᴇ sᴛʀᴇᴀᴍɪɴɢ⚓️', url='https://t.me/+NE3VMORHtoU3OWU1')
             ],[
             InlineKeyboardButton('⚙Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs⚙', url='https://t.me/+eqPQjQe2qGYyODU1'),
         ]]
