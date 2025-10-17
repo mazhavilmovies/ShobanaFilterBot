@@ -10,7 +10,7 @@ Hᴇʀᴇ Yᴏᴜ Cᴀɴ Rᴇǫᴜᴇsᴛ Mᴏᴠɪᴇ's, Jᴜsᴛ Sᴇɴᴛ M�
 Cᴏɴᴛᴀᴄᴛ Bᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ (Oʀ) Rᴇᴘᴏʀᴛ Bᴜɢꜱ..!! 👉 @MazhavilAdminBot</b>"""
     HELP_TXT = """
      Hey  {} 
-Currently using free server so please Dont kill Me...
+𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂....
 """
     ABOUT_TXT = """<b>
 ◎ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/George_sirr> George</a>
@@ -18,8 +18,7 @@ Currently using free server so please Dont kill Me...
 ◎ Dᴀᴛᴀ Bᴀsᴇ: Mᴏɴɢᴏ DB
 ◎ Bᴏᴛ Sᴇʀᴠᴇʀ: KoYeb</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
-- Shobana Filter Bot  is a open source project. 
-- Source - <ahref=https://github.com/mn-bots/ShobanaFilterBot>Click Here to get source code</a>
+- നോക്കി ഇരുന്നോ.... ഇപ്പൊ കിട്ടും..😋  ©. 
 
 <b>DEVS:</b>
 -<a href=https://github.com/mntg4u> MN - TG</a>"""
