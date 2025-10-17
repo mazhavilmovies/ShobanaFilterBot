@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """ 𝖧𝖾𝗒 {} , 𝖨 𝖠𝗆 <a href=https://t.me/Mazhavil_Waseem_bot/>Mᴏᴠɪᴇ Nᴀᴍᴇ </a></b> 𝑾𝑨𝑺𝑬𝑬𝑴 </a></b> , 𝖧𝖺𝗉𝗉𝗒 🖤 𝖳𝗈 𝖧𝖺𝗏𝖾 𝖸𝗈𝗎
+    START_TXT = """ 𝖧𝖾𝗒 {} , 𝖨 𝖠𝗆 <a href=https://t.me/Mazhavil_Waseem_bot/> 𝑾𝑨𝑺𝑬𝑬𝑴 </a></b> , 𝖧𝖺𝗉𝗉𝗒 🖤 𝖳𝗈 𝖧𝖺𝗏𝖾 𝖸𝗈𝗎
 
 𝖨𝖺𝗆 𝖯𝗈𝗐𝖾𝗋𝖥𝗎𝗅𝗅 𝖠𝗎𝗍𝗈 𝖥𝗂𝗅𝗍𝖾𝗋 + 𝖬𝗈𝗏𝗂𝖾 𝖲𝖾𝖺𝗋𝖼𝗁 + 𝖬𝖺𝗇𝗎𝖺𝗅 𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍 ⚙️
 
