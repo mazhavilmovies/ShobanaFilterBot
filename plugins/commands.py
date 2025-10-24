@@ -163,8 +163,8 @@ async def checksub_callback(client, callback_query):
     else:
         # Resend subscription prompt
         links = await create_invite_links(client)
-        btn = [[InlineKeyboardButton("📢 𝐑𝐞𝐪𝐮𝐞𝐬ᴛ 𝐓𝐨 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📢  ക്ലിക്ക് ചെയ്ത ശേഷം 🔄 𝐓𝐫𝐲 𝐀𝐠ᴀ𝐢𝐧 🔄 എന്ന ബട്ടണിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് ഞാൻ ആ സിനിമ അയച്ചു തരുന്നതാണ് 😍", url=url)] for url in links.values()]
-        btn.append([InlineKeyboardButton("⚓️ 𝐑𝐞𝐪𝐮𝐞𝐬ᴛ 𝐓𝐨 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⚓️ ", callback_data=data)])
+        btn = [[InlineKeyboardButton("🤖 Join Updates Channel", url=url)] for url in links.values()]
+        btn.append([InlineKeyboardButton("🔄 Try Again", callback_data=data)])
         await callback_query.edit_message_text(
             text="**❌ You still haven't joined all channels!**\n\nPlease join and press Try Again:",
             reply_markup=InlineKeyboardMarkup(btn)
@@ -212,13 +212,13 @@ async def start(client, message):
         return
     if not await is_subscribed(message.from_user.id, client):
         links = await create_invite_links(client)
-        btn = [[InlineKeyboardButton("📢 𝐑𝐞𝐪𝐮𝐞𝐬ᴛ 𝐓𝐨 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 📢  ക്ലിക്ക് ചെയ്ത ശേഷം 🔄 𝐓𝐫𝐲 𝐀𝐠ᴀ𝐢𝐧 🔄 എന്ന ബട്ടണിൽ അമർത്തിയാൽ നിങ്ങൾക്ക് ഞാൻ ആ സിനിമ അയച്ചു തരുന്നതാണ് 😍", url=url)] for url in links.values()]
+        btn = [[InlineKeyboardButton("🤖 Join Updates Channel", url=url)] for url in links.values()]
 
         if len(message.command) == 2:
             try:
                 kk, file_id = message.command[1].split("_", 1)
                 pre = 'checksubp' if kk == 'filep' else 'checksub'
-                btn.append([InlineKeyboardButton("⚓️ 𝐑𝐞𝐪𝐮𝐞𝐬ᴛ 𝐓𝐨 𝐉𝐨𝐢𝐧 𝐂𝐡𝐚𝐧𝐧𝐞𝐥⚓️ ", callback_data=f"{pre}#{file_id}")])
+                btn.append([InlineKeyboardButton("🔄 Try Again", callback_data=f"{pre}#{file_id}")])
             except (IndexError, ValueError):
                 btn.append([InlineKeyboardButton("🔄 Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         
