@@ -20,7 +20,7 @@ API_HASH = environ.get('API_HASH', '79198e1eb4cfd0f771a89d83b9144e7e')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7958982854:AAHX2JfP28V9QZS2UBYAVFHXP0-gIBQ_BXI')
 
 # Keep-Alive URL
-KEEP_ALIVE_URL = environ.get("KEEP_ALIVE_URL", "https://shobanafilterbot-fo76.onrender.com")  # <-- Add this line
+KEEP_ALIVE_URL = environ.get("KEEP_ALIVE_URL", "https://shobanafilterbot-1-hjy6.onrender.com")  # <-- Add this line
 #hyper link
 HYPER_MODE = bool(environ.get('HYPER_MODE', False))
 #request fsub
