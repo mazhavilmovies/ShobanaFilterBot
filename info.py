@@ -96,11 +96,3 @@ Bot_cmds = {
     "broadcast": "ᴛᴏ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴜꜱᴇʀꜱ",
     "restart": "ʀᴇꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ."
 }
-
-#Don't Change Anything Here
-if MULTIPLE_DB == True:
-    DATABASE_URI = DATABASE_URI
-    DATABASE_URI2 = DATABASE_URI
-else:
-    DATABASE_URI = DATABASE_URI
-    DATABASE_URI2 = DATABASE_URI2
