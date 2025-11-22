@@ -45,6 +45,10 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://melodysotto4_db_user:B
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mn_files')
 
+# If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
+MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True) # Type True For Turn On MULTIPLE DB FUNTION 
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://melodysotto4_db_user:BCUKIKDEAqFEzeCj@cluster0.trrt89o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+
 # File Channel Settings
 FILE_CHANNELS = [int(ch) for ch in environ.get('FILE_CHANNELS', '-1002627549729').split()]
 FILE_CHANNEL_SENDING_MODE = is_enabled(environ.get('FILE_CHANNEL_SENDING_MODE', 'False'), False)
@@ -77,3 +81,26 @@ LOG_STR += ("Long IMDB storyline enabled." if LONG_IMDB_DESCRIPTION else "LONG_I
 LOG_STR += ("Spell Check Mode Is Enabled, bot will be suggesting related movies if movie not found\n" if SPELL_CHECK_REPLY else "SPELL_CHECK_REPLY Mode disabled\n")
 LOG_STR += (f"MAX_LIST_ELM Found, long list will be shortened to first {MAX_LIST_ELM} elements\n" if MAX_LIST_ELM else "Full List of casts and crew will be shown in imdb template, restrict them by adding a value to MAX_LIST_ELM\n")
 LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
+
+Bot_cmds = {
+    "start": "ꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ",
+    "stats": "ʙᴏᴛ ꜱᴛᴀᴛꜱ",
+    "users" : "ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ʙᴏᴛ ᴜꜱᴇʀꜱ",
+    "connect" :"ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ ᴛʜᴇ ʙᴏᴛ",
+    "id": "ᴄʜᴀᴛ ɪᴅ",
+    "info": "ᴜꜱᴇʀ ɪɴꜰᴏ",
+    "delete": "ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴇ ꜰʀᴏᴍ ᴅʙ.",
+    "series": "ʟᴀᴛᴇꜱᴛ ꜱᴇʀɪᴇꜱ",
+    "chats": "ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴛʜᴇ ᴍʏ ᴄʜᴀᴛꜱ ᴀɴᴅ ɪᴅꜱ",   
+    "movie": "ʟᴀᴛᴇꜱᴛ ᴍᴏᴠɪᴇꜱ",
+    "broadcast": "ᴛᴏ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴜꜱᴇʀꜱ",
+    "restart": "ʀᴇꜱᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ."
+}
+
+#Don't Change Anything Here
+if MULTIPLE_DB == True:
+    DATABASE_URI = DATABASE_URI
+    DATABASE_URI2 = DATABASE_URI
+else:
+    DATABASE_URI = DATABASE_URI
+    DATABASE_URI2 = DATABASE_URI2
