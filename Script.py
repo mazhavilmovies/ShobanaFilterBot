@@ -1,9 +1,9 @@
 class script(object):
-    START_TXT = """ 𝗛𝗲𝘆 {} ,𝗜 𝗔𝗺 <a href=https://t.me/Mazhavil_Waseem_bot/> 𝗪𝗮𝘀𝗲𝗲𝗺 </a></b> , 𝗛𝗮𝗽𝗽𝘆 🖤 𝗧𝗼 𝗛𝗮𝘃𝗲 𝗬𝗼𝘂 
+    START_TXT = """ 𝗛𝗲𝘆 {} ,𝗜 𝗔𝗺 <a href=https://t.me/{}>{}</a>, 𝗛𝗮𝗽𝗽𝘆 🖤 𝗧𝗼 𝗛𝗮𝘃𝗲 𝗬𝗼𝘂 
 
 𝗜𝗮𝗺 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹𝗹 𝗔𝘂𝘁𝗼 𝗙𝗶𝗹𝘁𝗲𝗿 + 𝗠𝗼𝘃𝗶𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 + 𝗠𝗮𝗻𝘂𝗮𝗹 𝗙𝗶𝗹𝘁𝗲𝗿 𝗕𝗼𝘁 ⚙
 
-𝗛𝗲𝗿𝗲 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲'𝘀, 𝗝𝘂𝘀𝘁 𝗦𝗲𝗻𝘁 <a href=https://t.me/Mazhavil_Waseem_bot/> 𝗠𝗼𝘃𝗶𝗲 𝗡𝗮𝗺𝗲 </a></b> 𝗪𝗶𝘁𝗵 𝗣𝗿𝗼𝗽𝗲𝗿 <a href=https://www.google.com/> 𝗚𝗼𝗼𝗴𝗹𝗲 </a></b> 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴..!!
+𝗛𝗲𝗿𝗲 𝗬𝗼𝘂 𝗖𝗮𝗻 𝗥𝗲𝗾𝘂𝗲𝘀𝘁 𝗠𝗼𝘃𝗶𝗲'𝘀, 𝗝𝘂𝘀𝘁 𝗦𝗲𝗻𝘁 <a href=https://t.me/{}>{}</a> 𝗠𝗼𝘃𝗶𝗲 𝗡𝗮𝗺𝗲 </a></b> 𝗪𝗶𝘁𝗵 𝗣𝗿𝗼𝗽𝗲𝗿 <a href=https://www.google.com/> 𝗚𝗼𝗼𝗴𝗹𝗲 </a></b> 𝗦𝗽𝗲𝗹𝗹𝗶𝗻𝗴..!!
 
 𝗖ᴏɴᴛᴀᴄᴛ 𝗕ᴏᴛ 𝗗ᴇᴠᴇʟᴏᴘᴇʀ (𝗢ʀ) 𝗥ᴇᴘᴏʀᴛ 𝗕ᴜɢꜱ..!! 👉 @MAZHAVILADMINBOT</b>"""
     HELP_TXT = """
