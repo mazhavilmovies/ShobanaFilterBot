@@ -200,7 +200,7 @@ async def start(client, message):
             InlineKeyboardButton('⚙Lᴀᴛᴇsᴛ Mᴏᴠɪᴇ Rᴇʟᴇᴀsᴇs⚙', url='https://t.me/+5xjplvJC1IIyZTdl')
          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_text("WᴀSᴇᴇᴍ Fʀᴏᴍ Hᴇᴀᴠᴇɴ") 
+        m=await message.reply_text("ShobanaFilterBot") 
         await asyncio.sleep(1.2)
         await m.delete()
         await message.reply_photo(
