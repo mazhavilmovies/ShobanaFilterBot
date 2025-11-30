@@ -52,7 +52,7 @@ FILE_AUTO_DELETE_SECONDS = int(environ.get('FILE_AUTO_DELETE_SECONDS', 3600))  #
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002984004301'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1002995624443')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Mazhavil_Bots')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'False')), False)
 IMDB = is_enabled((environ.get('IMDB', 'False')), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), True)
